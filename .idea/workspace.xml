@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f094164-257d-4938-8841-5ca9ff8864e3" name="Default Changelist" comment="" />
+    <list default="true" id="7f094164-257d-4938-8841-5ca9ff8864e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/exception/UserNotExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/service/impl/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/validator/MyConstraint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/validator/MyConstraintValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/controller/ControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/resources/resources/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/resources/resources/error/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/controller/UserCobtroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo/src/test/java/com/qianxun/web/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/src/test/java/com/qianxun/web/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo/target/classes/com/qianxun/dto/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/target/classes/com/qianxun/dto/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo/target/classes/com/qianxun/web/controller/UserCobtroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo/target/test-classes/com/qianxun/web/controller/UserControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/target/test-classes/com/qianxun/web/controller/UserControllerTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +35,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,6 +53,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1SPo0juuj0j6w6HGHxyYO8answp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -36,13 +61,21 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-security-demo/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-demo\src\main\resources\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-demo\src\main\java\com\qianxun" />
+      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-demo\src\main\java\com\qianxun\web\controller" />
+      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-demo\src\main\resources\resources\error" />
+      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-demo\src\main\java\com\qianxun\validator" />
       <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-demo\src\main\resources" />
     </key>
   </component>
@@ -58,8 +91,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest.whenQuerySuccess">
-    <configuration name="UserControllerTest.whenQuerySuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="UserControllerTest.whenCreateSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springsecuritydemo" />
       <extension name="coverage">
         <pattern>
@@ -69,7 +102,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qianxun.web.controller" />
       <option name="MAIN_CLASS_NAME" value="com.qianxun.web.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="whenQuerySuccess" />
+      <option name="METHOD_NAME" value="whenCreateSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.whenDeleteSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springsecuritydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qianxun.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qianxun.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.qianxun.web.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="whenDeleteSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.whenGetInfoSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springsecuritydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qianxun.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qianxun.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.qianxun.web.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="whenGetInfoSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.whenUpdateSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springsecuritydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qianxun.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qianxun.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.qianxun.web.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="whenUpdateSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,8 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserControllerTest.whenQuerySuccess" />
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.UserControllerTest.whenDeleteSuccess" />
+        <item itemvalue="JUnit.UserControllerTest.whenUpdateSuccess" />
+        <item itemvalue="JUnit.UserControllerTest.whenCreateSuccess" />
+        <item itemvalue="JUnit.UserControllerTest.whenGetInfoSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -108,11 +192,38 @@
       <workItem from="1571474373969" duration="3794000" />
       <workItem from="1571560794125" duration="4910000" />
       <workItem from="1574262594796" duration="99000" />
-      <workItem from="1574344843623" duration="602000" />
+      <workItem from="1574344843623" duration="1324000" />
+      <workItem from="1574604234982" duration="3940000" />
+      <workItem from="1574691937900" duration="4863000" />
+      <workItem from="1574778811665" duration="3881000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/controller/UserController.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
