@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.qianxun.properties.SecurityProperties",
+      "name": "qianxun.security",
+      "type": "com.qianxun.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.qianxun.properties.SecurityProperties",
+      "name": "qianxun.security.browser",
+      "type": "com.qianxun.properties.BrowserProperties"
+    },
+    {
+      "sourceType": "com.qianxun.properties.SecurityProperties",
+      "name": "qianxun.security.code",
+      "type": "com.qianxun.properties.ValidateCodeProperties"
+    }
+  ]
+}

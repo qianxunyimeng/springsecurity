@@ -2,25 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f094164-257d-4938-8841-5ca9ff8864e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/exception/UserNotExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/service/impl/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/validator/MyConstraint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/validator/MyConstraintValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/controller/ControllerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/resources/resources/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/resources/resources/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-bro/src/main/java/com/qianxun/brower/BrowserSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-bro/src/main/java/com/qianxun/brower/BrowserSecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-bro/src/main/java/com/qianxun/brower/MyUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-bro/src/main/java/com/qianxun/brower/authentication/QxAuthenctiationFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-bro/src/main/java/com/qianxun/brower/authentication/QxAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-bro/src/main/java/com/qianxun/brower/support/SimpleResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-bro/src/main/java/com/qianxun/brower/support/SocialUserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-bro/src/main/resources/resources/qx-banding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-bro/src/main/resources/resources/qx-signIn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-bro/src/main/resources/resources/qx-signUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-bro/src/main/resources/resources/session/invalid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/SecurityCoreConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/authentication/AbstractChannelSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/authentication/mobile/SmsCodeAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/authentication/mobile/SmsCodeAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/authentication/mobile/SmsCodeAuthenticationSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/authentication/mobile/SmsCodeAuthenticationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/properties/BrowserProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/properties/ImageCodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/properties/LoginResponseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/properties/SecurityConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/properties/SecurityProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/properties/SmsCodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/properties/ValidateCodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/ValidateCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/ValidateCodeBeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/ValidateCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/ValidateCodeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/ValidateCodeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/ValidateCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/ValidateCodeProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/ValidateCodeProcessorHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/ValidateCodeSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/ValidateCodeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/image/ImageCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/image/ImageCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/image/ImageCodeProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/impl/AbstractValidateCodeProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/sms/DefaultSmsCodeSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/sms/SmsCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/sms/SmsCodeProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/sms/SmsCodeSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/dto/FileInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/aspect/TimeAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/filter/TimeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/interceptor/TimeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/resources/resources/demo-binding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/resources/resources/demo-signIn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/resources/resources/demo-signUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-demo/src/main/resources/resources/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/dto/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/controller/UserCobtroller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-demo/src/test/java/com/qianxun/web/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/src/test/java/com/qianxun/web/controller/UserControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-demo/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-demo/target/classes/com/qianxun/dto/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/target/classes/com/qianxun/dto/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-demo/target/classes/com/qianxun/web/controller/UserCobtroller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo/target/classes/com/qianxun/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/target/classes/com/qianxun/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-demo/target/classes/com/qianxun/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/target/classes/com/qianxun/web/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-demo/target/test-classes/com/qianxun/web/controller/UserControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-demo/target/test-classes/com/qianxun/web/controller/UserControllerTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +107,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -72,11 +116,11 @@
       <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-demo\src\main\resources\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-demo\src\main\java\com\qianxun" />
-      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-demo\src\main\java\com\qianxun\web\controller" />
-      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-demo\src\main\resources\resources\error" />
-      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-demo\src\main\java\com\qianxun\validator" />
-      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-demo\src\main\resources" />
+      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-core\src\main\java\com\qianxun\validate\code" />
+      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-core\src\main\java\com\qianxun" />
+      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-core\src\main\java\com\qianxun\validate\code\image" />
+      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-core\src\main\java\com\qianxun\validate\code\sms" />
+      <recent name="D:\WorkSpace\Idea\springsecurity\spring-security-core\src\main\java\com\qianxun\properties" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -124,22 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest.whenGetInfoSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springsecuritydemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qianxun.web.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qianxun.web.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.qianxun.web.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="whenGetInfoSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserControllerTest.whenUpdateSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springsecuritydemo" />
       <extension name="coverage">
@@ -151,6 +179,22 @@
       <option name="PACKAGE_NAME" value="com.qianxun.web.controller" />
       <option name="MAIN_CLASS_NAME" value="com.qianxun.web.controller.UserControllerTest" />
       <option name="METHOD_NAME" value="whenUpdateSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.whenUploadSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springsecuritydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qianxun.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qianxun.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.qianxun.web.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="whenUploadSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,10 +216,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.UserControllerTest.whenUploadSuccess" />
         <item itemvalue="JUnit.UserControllerTest.whenDeleteSuccess" />
         <item itemvalue="JUnit.UserControllerTest.whenUpdateSuccess" />
         <item itemvalue="JUnit.UserControllerTest.whenCreateSuccess" />
-        <item itemvalue="JUnit.UserControllerTest.whenGetInfoSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +240,11 @@
       <workItem from="1574604234982" duration="3940000" />
       <workItem from="1574691937900" duration="4863000" />
       <workItem from="1574778811665" duration="3881000" />
+      <workItem from="1574864444265" duration="6061000" />
+      <workItem from="1574948983338" duration="9048000" />
+      <workItem from="1575035471882" duration="5747000" />
+      <workItem from="1575181288159" duration="23168000" />
+      <workItem from="1575293515887" duration="9489000" />
     </task>
     <servers />
   </component>
@@ -220,10 +269,30 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-security-demo/src/main/java/com/qianxun/web/controller/UserController.java</url>
-          <line>55</line>
+          <line>59</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-security-bro/src/main/java/com/qianxun/brower/BrowserSecurityController.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-security-bro/src/main/java/com/qianxun/brower/authentication/QxAuthenctiationFailureHandler.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-security-core/src/main/java/com/qianxun/validate/code/ValidateCodeFilter.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="securityProperties" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

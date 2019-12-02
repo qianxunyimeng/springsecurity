@@ -2,6 +2,7 @@ package com.qianxun.web.controller;
 
 import com.fasterxml.jackson.annotation.JsonView;
 import com.qianxun.dto.User;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.junit.Test;
 import org.springframework.data.domain.Pageable;
@@ -12,6 +13,7 @@ import org.springframework.validation.FieldError;
 import org.springframework.validation.ObjectError;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import javax.validation.Valid;
 import java.time.LocalDateTime;
@@ -26,10 +28,12 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/user")
+@Api(value = "用户管理api")
 public class UserController {
 
     @GetMapping
     @JsonView(User.userSampleView.class)
+    @ApiOperation("用户查询")
     public List<User> query(@RequestParam(name="username",required = false,defaultValue = "tom") String username,
     @PageableDefault(page = 2,size = 10,sort = "username,desc") Pageable pageable
     ){
